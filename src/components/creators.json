@@ -1,0 +1,57 @@
+[
+    {
+      "id": "1",
+      "name": "Alex Johnson",
+      "verified": true,
+      "description": "Digital Artist, VR Sculptor, and Crypto Art Pioneer.",
+      "followers": "10K",
+      "profileImage": "imgs/author1.svg",
+      "headerImage": "imgs/creator.svg"
+    },
+    {
+      "id": "2",
+      "name": "Samantha Lee",
+      "verified": false,
+      "description": "Contemporary Artist, Exploring blockchain and art intersections.",
+      "followers": "5K",
+      "profileImage": "imgs/author2.svg",
+      "headerImage": "imgs/creator3.svg"
+    },
+    {
+      "id": "3",
+      "name": "Michael Davis",
+      "verified": false,
+      "description": "Abstract Expressionist, NFT Enthusiast. ",
+      "followers": "2K",
+      "profileImage": "imgs/author3.svg",
+      "headerImage": "imgs/creator2.svg"
+    },
+    {
+      "id": "4",
+      "name": "Emily Stone",
+      "verified": true,
+      "description": "Crypto Artist, Focused on 3D immersive experiences.",
+      "followers": "8K",
+      "profileImage": "imgs/author4.svg",
+      "headerImage": "imgs/creator3.svg"
+    },
+    {
+      "id": "5",
+      "name": "Daniel Kim",
+      "verified": false,
+      "description": "Surrealist Painter, Incorporating NFTs in mixed media art.",
+      "followers": "1K",
+      "profileImage": "imgs/author1.svg",
+      "headerImage": "imgs/creator2.svg"
+    },
+    {
+      "id": "6",
+      "name": "Isabella Taylor",
+      "verified": true,
+      "description": "Photographer & Digital Artist, Capturing the ethereal.",
+      "followers": "9K",
+      "profileImage": "imgs/author1.svg",
+      "headerImage": "imgs/creator.svg"
+    }
+  ]
+  

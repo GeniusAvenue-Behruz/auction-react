@@ -1,0 +1,110 @@
+[
+    {
+        "id": 1,
+        "imgSrc": "imgs/auction1.svg",
+        "title": "3D Soft Curves",
+        "hoursLeft": 2,
+        "authorImgSrc": "imgs/author1.svg",
+        "author": "Author 1",
+        "price": "0.85 ETH"
+    },
+    {
+        "id": 2,
+        "imgSrc": "imgs/auction2.svg",
+        "title": "The Mystery of the Black Square",
+        "hoursLeft": 5,
+        "authorImgSrc": "imgs/author2.svg",
+        "author": "Author 2",
+        "price": "1.2 ETH"
+    },
+    {
+        "id": 3,
+        "imgSrc": "imgs/auction3.svg",
+        "title": "Pink Cloud",
+        "hoursLeft": 1,
+        "authorImgSrc": "imgs/author3.svg",
+        "author": "Author 3",
+        "price": "2.5 ETH"
+    },
+    {
+        "id": 4,
+        "imgSrc": "imgs/auction4.svg",
+        "title": "Starry Night Interpretation",
+        "hoursLeft": 8,
+        "authorImgSrc": "imgs/author4.svg",
+        "author": "Author 4",
+        "price": "1.5 ETH"
+    },
+    {
+        "id": 5,
+        "imgSrc": "imgs/auction2.svg",
+        "title": "Abstract Reality",
+        "hoursLeft": 4,
+        "authorImgSrc": "imgs/author4.svg",
+        "author": "Author 5",
+        "price": "0.95 ETH"
+    },
+    {
+        "id": 6,
+        "imgSrc": "imgs/auction3.svg",
+        "title": "Urban Jungle",
+        "hoursLeft": 6,
+        "authorImgSrc": "imgs/author3.svg",
+        "author": "Author 6",
+        "price": "3.2 ETH"
+    },
+    {
+        "id": 7,
+        "imgSrc": "imgs/auction1.svg",
+        "title": "Surreal Dream",
+        "hoursLeft": 3,
+        "authorImgSrc": "imgs/author2.svg",
+        "author": "Author 7",
+        "price": "2.8 ETH"
+    },
+    {
+        "id": 8,
+        "imgSrc": "imgs/auction2.svg",
+        "title": "Ocean Depths",
+        "hoursLeft": 7,
+        "authorImgSrc": "imgs/author1.svg",
+        "author": "Author 8",
+        "price": "1.1 ETH"
+    },
+    {
+        "id": 9,
+        "imgSrc": "imgs/auction9.svg",
+        "title": "Luminous Shadows",
+        "hoursLeft": 2,
+        "authorImgSrc": "imgs/author9.svg",
+        "author": "Author 9",
+        "price": "2.3 ETH"
+    },
+    {
+        "id": 10,
+        "imgSrc": "imgs/auction10.svg",
+        "title": "Cubic Patterns",
+        "hoursLeft": 9,
+        "authorImgSrc": "imgs/author10.svg",
+        "author": "Author 10",
+        "price": "1.75 ETH"
+    },
+    {
+        "id": 11,
+        "imgSrc": "imgs/auction11.svg",
+        "title": "Futuristic Cityscape",
+        "hoursLeft": 10,
+        "authorImgSrc": "imgs/author11.svg",
+        "author": "Author 11",
+        "price": "3.0 ETH"
+    },
+    {
+        "id": 12,
+        "imgSrc": "imgs/auction12.svg",
+        "title": "Forest of Illusions",
+        "hoursLeft": 5,
+        "authorImgSrc": "imgs/author12.svg",
+        "author": "Author 12",
+        "price": "1.6 ETH"
+    }
+]

@@ -1,0 +1,39 @@
+[
+    {
+      "id": 1,
+      "imgSrc": "imgs/auction1.svg",
+      "title": "3D Soft Curves",
+      "hoursLeft": 2,
+      "authorImgSrc": "imgs/author1.svg",
+      "author": "Author 1",
+      "price": "0.85 ETH"
+    },
+    {
+      "id": 2,
+      "imgSrc": "imgs/auction2.svg",
+      "title": "The mystery of the black square",
+      "hoursLeft": 5,
+      "authorImgSrc": "imgs/author2.svg",
+      "author": "Author 2",
+      "price": "1.2 ETH"
+    },
+    {
+      "id": 3,
+      "imgSrc": "imgs/auction3.svg",
+      "title": "Pink Cloud",
+      "hoursLeft": 1,
+      "authorImgSrc": "imgs/author3.svg",
+      "author": "Author 3",
+      "price": "2.5 ETH"
+    },
+    {
+      "id": 4,
+      "imgSrc": "imgs/auction4.svg",
+      "title": "Pink Cloud",
+      "hoursLeft": 1,
+      "authorImgSrc": "imgs/author4.svg",
+      "author": "Author 3",
+      "price": "2.5 ETH"
+    }
+  ]
+  
