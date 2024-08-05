@@ -11,12 +11,12 @@ function AuctionSection({ title, id, auctionsFile }) {
     allAuctions = featuredAuctions;
   }
 
-  const initialVisibleCount = 8;
+  const initialVisibleCount = 4;
   const [auctions, setAuctions] = useState(allAuctions.slice(0, initialVisibleCount));
   const [visibleCount, setVisibleCount] = useState(initialVisibleCount);
 
   const loadMore = () => {
-    setVisibleCount(prevCount => prevCount + 8);
+    setVisibleCount(prevCount => prevCount + 4);
   };
 
   const shortenList = () => {
@@ -33,11 +33,11 @@ function AuctionSection({ title, id, auctionsFile }) {
         <h2 className='text-2xl font-bold'>{title}</h2>
         <div>
           <a href="#!" className="text-blue-600 hover:text-blue-800">View all auctions</a>
-          
+
         </div>
       </div>
       <div className="auction__cards grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
-      {auctions.map((auction) => (
+        {auctions.map((auction) => (
           <div className="auction__card bg-white rounded-lg shadow-xl overflow-hidden" key={auction.id}>
             <div className="auction__card-head relative">
               <img
@@ -71,26 +71,28 @@ function AuctionSection({ title, id, auctionsFile }) {
           </div>
         ))}
       </div>
-      {visibleCount < allAuctions.length && (
-        <div className='flex justify-center items-center mt-14'>
+
+
+      <div className='flex justify-center items-center mt-14'>
+        {visibleCount < allAuctions.length && (
+
           <button
             onClick={loadMore}
             className="bg-transparent w-[200px] text-sm font-medium text-black py-2 px-8 mt-14 rounded-full outline-none border border-solid border-[#AEAEB2]/20 hover:bg-[#AEAEB2]/40"
           >
             Load More
           </button>
-        </div>
-      )}
-      {visibleCount > initialVisibleCount && (
-            <div className='flex justify-center items-center mt-14'>
-            <button
-              onClick={shortenList}
-              className="bg-transparent w-[200px] text-sm font-medium text-black py-2 px-8 mt-14 rounded-full outline-none border border-solid border-[#AEAEB2]/20 hover:bg-[#AEAEB2]/40"
-            >
-              Hide Rows
-            </button>
-          </div>
-          )}
+        )}
+        {visibleCount > initialVisibleCount && (
+          <button
+            onClick={shortenList}
+            className="bg-transparent w-[200px] text-sm font-medium text-black py-2 px-8 mt-14 rounded-full outline-none border border-solid border-[#AEAEB2]/20 hover:bg-[#AEAEB2]/40"
+          >
+            Hide Rows
+          </button>
+        )}
+      </div>
+
     </section>
   );
 }

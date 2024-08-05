@@ -34,6 +34,15 @@
       "authorImgSrc": "imgs/author4.svg",
       "author": "Author 3",
       "price": "2.5 ETH"
+    },
+    {
+      "id": 5,
+      "imgSrc": "imgs/auction4.svg",
+      "title": "Pink Cloud",
+      "hoursLeft": 1,
+      "authorImgSrc": "imgs/author4.svg",
+      "author": "Author 3",
+      "price": "2.5 ETH"
     }
   ]
   
